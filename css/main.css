@@ -1,37 +1,27 @@
-body{
 
-}
 
 .nav-bar{
-
+width:100%;
 }
 
-.nav-item{
+span.nav-item{
     font-size: 5vh;
-    padding:10%;
+    padding-left:15%;
+    padding-right:15%;
+    text-align: center;
     width:50%;
 
 }
-
-h2{
-
-}
-
-p{
+textarea{
 
 }
 
-a{
-
-}
 
 li{
     list-style: none;
 }
 
-ul{
-
-}
+u
 
 .price{
 
@@ -42,5 +32,23 @@ ul{
 }
 
 .input{
-    width: 50%;
+    display:block;
+    width: 30%;
+    margin-left:10%;
+}
+.input:first-child{
+    margin-top:5%;
+}
+
+.textInfo{
+    display:block;
+    margin-left:10%;
+    width:30%;
+}
+
+button{
+    display:block;
+    margin-left:10%;
+    width:15%;
+    background-color: dodgerblue;
 }

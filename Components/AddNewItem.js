@@ -25,9 +25,9 @@ let AddNewItem = React.createClass({
             React.createElement('form', {},
                 React.createElement('input', {className:'input',type: 'text', placeholder: 'Name', value: this.props.bananaItem.name,
                     onChange: this.onNameChange}),
-                React.createElement('input', {type: 'text', placeholder: 'Price', value: this.props.bananaItem.price,
+                React.createElement('input', {className:'input',type: 'text', placeholder: 'Price', value: this.props.bananaItem.price,
                     onChange: this.onPriceChange}),
-                React.createElement('textarea', {placeholder: 'Description', value: this.props.bananaItem.description,
+                React.createElement('textarea', {className:'textInfo',placeholder: 'Description', value: this.props.bananaItem.description,
                     onChange: this.onDescriptionChange}),
                 React.createElement('button', {type: 'button', onClick: this.onSubmit}, 'Submit')
             )
